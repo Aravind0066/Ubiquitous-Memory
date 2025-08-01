@@ -1,0 +1,33 @@
+git clone <repo link>
+git status
+git add <file name>        ->  git add . -> for all files
+git commit -m "message" 
+git push origin main         //- origin is the repo link ... - main the branch ..
+
+Order : Modification -> Add -> Commit -> Push
+
+git add <file name>  -> for deleted files also
+
+git pull   -> to get files created in github repo not in vs
+
+git init -> to create a repo using local file
+
+git remote add origin
+git branch
+git branch -M <new name(generally main)>  -> change from master to main
+git branch -a  -> list all branches (use pull for changes)
+git checkout <branch name>    -->>> checkout is used to switch branches    ->>> the green highlighted and the branch with pointer is the current branch
+
+git diff <branch>  -> to check if there are any changes in sub branches other than main or between branches in a repo.
+git merge <branch>  ->> dont but current branch***   -->>> only if you have access else have to pull req
+
+pull request are only possible with github website ..... 
+also conflicts must be resolved manually in github 
+
+
+
+git pull -->>>  only pulls updates from that branch not main --->>>> give -> git pull origin main
+
+
+
+ALWAYS START WITH GIT CLONE AND END WITH GIT PUSH ORIGIN <BRANCH>....!!!!!!!
